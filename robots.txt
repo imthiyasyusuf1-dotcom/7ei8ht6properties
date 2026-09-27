@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://7ei8ht6properties.com/sitemap.xml
