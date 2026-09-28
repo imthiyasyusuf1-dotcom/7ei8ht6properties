@@ -618,3 +618,4 @@ html,body{overflow-x:clip}
 .member .mc a{min-height:36px;display:inline-flex;align-items:center}
 .grid{row-gap:40px}
 }
+@media (max-width:760px){.member .mc{row-gap:0}.member .mc a{min-height:30px}.member .mc a:first-child{margin-bottom:0}}
