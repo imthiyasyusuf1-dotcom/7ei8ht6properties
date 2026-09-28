@@ -602,3 +602,12 @@ html,body{overflow-x:clip}
 @media (min-width:761px){.sub-shade{background:linear-gradient(180deg,rgba(12,11,9,.5),rgba(12,11,9,.15) 35%,rgba(12,11,9,.88))}.sub-hero p{text-shadow:0 1px 12px rgba(12,11,9,.7)}}
 
 .rera{font:500 11px/1.4 var(--sans);letter-spacing:.06em;color:var(--ink,#555);opacity:.75;margin:-4px 0 8px}
+/* team grid: even rows */
+.grid{align-items:stretch;row-gap:56px}
+.member,.member:nth-child(n){transform:none!important;display:flex;flex-direction:column}
+.member .ph{aspect-ratio:4/5;margin-bottom:18px}
+.member img{object-position:50% 18%}
+.member h3{min-height:2.5em;display:flex;align-items:flex-end}
+.member .role{min-height:1.4em}
+.rera{min-height:1.4em;margin:-2px 0 10px}
+.member .mc{margin-top:auto;padding-top:12px;border-top:1px solid var(--line,rgba(0,0,0,.1))}
