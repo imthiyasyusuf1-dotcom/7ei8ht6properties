@@ -600,3 +600,5 @@ html,body{overflow-x:clip}
   .sub-hero h1,.sub-hero p{text-shadow:0 1px 14px rgba(12,11,9,.85),0 0 2px rgba(12,11,9,.6)}
 }
 @media (min-width:761px){.sub-shade{background:linear-gradient(180deg,rgba(12,11,9,.5),rgba(12,11,9,.15) 35%,rgba(12,11,9,.88))}.sub-hero p{text-shadow:0 1px 12px rgba(12,11,9,.7)}}
+
+.rera{font:500 11px/1.4 var(--sans);letter-spacing:.06em;color:var(--ink,#555);opacity:.75;margin:-4px 0 8px}
