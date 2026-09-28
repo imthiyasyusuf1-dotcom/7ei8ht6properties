@@ -619,3 +619,4 @@ html,body{overflow-x:clip}
 .grid{row-gap:40px}
 }
 @media (max-width:760px){.member .mc{row-gap:0}.member .mc a{min-height:30px}.member .mc a:first-child{margin-bottom:0}}
+@media (max-width:760px){.leader .mc a[href^="mailto"]{font-size:0}.leader .mc a[href^="mailto"]::after{content:"Email";font-size:15px}}
