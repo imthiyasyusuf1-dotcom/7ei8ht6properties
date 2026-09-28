@@ -611,3 +611,10 @@ html,body{overflow-x:clip}
 .member .role{min-height:1.4em}
 .rera{min-height:1.4em;margin:-2px 0 10px}
 .member .mc{margin-top:auto;padding-top:12px;border-top:1px solid var(--line,rgba(0,0,0,.1))}
+@media (max-width:760px){
+.member h3{min-height:0;display:block;margin-top:2px}
+.member .ph{margin-bottom:12px}
+.member .mc{padding-top:8px;gap:0 16px}
+.member .mc a{min-height:36px;display:inline-flex;align-items:center}
+.grid{row-gap:40px}
+}
