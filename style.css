@@ -620,3 +620,16 @@ html,body{overflow-x:clip}
 }
 @media (max-width:760px){.member .mc{row-gap:0}.member .mc a{min-height:30px}.member .mc a:first-child{margin-bottom:0}}
 @media (max-width:760px){.leader .mc a[href^="mailto"]{font-size:clamp(12px,3.6vw,15px);white-space:nowrap;letter-spacing:0}}
+/* mobile leaders: clean stacked cards */
+@media (max-width:760px){
+.leaders{gap:56px;padding-top:64px;padding-bottom:48px}
+.leader{grid-template-columns:1fr!important;gap:0;align-items:start;text-align:left}
+.leader .ph{width:100%;aspect-ratio:4/5;margin:0 0 22px}
+.leader img{object-position:50% 20%}
+.leader .ld-c .kicker{margin:0 0 10px}
+.leader .d2{font-size:2rem;line-height:1.08;margin:0 0 10px}
+.leader .rera{margin:0 0 14px;font-size:12px;letter-spacing:.08em}
+.leader .mc{display:flex;flex-direction:column;gap:0;padding-top:0;border-top:1px solid rgba(0,0,0,.1)}
+.leader .mc a{min-height:48px;padding:0;border-bottom:1px solid rgba(0,0,0,.1);font-size:15px!important;color:var(--ink,#1a1a1a);display:flex;align-items:center;justify-content:space-between}
+.leader .mc a::after{content:"→";color:var(--gold-d,#8a6d3b);font-size:14px}
+}
