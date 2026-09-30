@@ -638,8 +638,8 @@ html,body{overflow-x:clip}
 /* ---------- 786 feedback, 30 Sep ---------- */
 .mark{width:96px;height:64px}
 .hdr.solid .mark{width:84px;height:56px}
-.veil .mark{width:150px;height:100px}
-@media (max-width:760px){.mark,.hdr.solid .mark{width:72px;height:48px}.veil .mark{width:120px;height:80px}}
+.veil .mark{width:clamp(200px,20vw,300px);height:clamp(133px,13.3vw,200px)}
+@media (max-width:760px){.mark,.hdr.solid .mark{width:72px;height:48px}.veil .mark{width:170px;height:113px}}
 .leaders.solo{grid-template-columns:1fr;max-width:980px}
 .leaders.solo .leader{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,70px);margin-top:0}
 .leaders.solo .leader .d2{font-size:clamp(2.2rem,3.6vw,3.4rem)}
