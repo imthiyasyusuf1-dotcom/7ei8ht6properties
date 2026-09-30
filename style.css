@@ -650,3 +650,9 @@ html,body{overflow-x:clip}
 .am-8{grid-column:6/13;grid-row:span 5}
 .am-9{grid-column:1/13;grid-row:span 4}
 @media (max-width:760px){.am-7{grid-column:1/7;grid-row:span 4;margin:0}.am-8{grid-column:1/4;grid-row:span 4;margin:0}.am-9{grid-column:4/7;grid-row:span 4;margin-top:40px}}
+/* full Arabic mode */
+html[dir=rtl] body{font-family:var(--arab),var(--sans)}
+html[dir=rtl] .hdr,html[dir=rtl] .nav,html[dir=rtl] .hero-media,html[dir=rtl] .am,html[dir=rtl] .veil{direction:ltr}
+html[dir=rtl] .nav a,html[dir=rtl] .hdr-r{direction:rtl}
+html[dir=rtl] .kicker,html[dir=rtl] .d2,html[dir=rtl] .body,html[dir=rtl] p,html[dir=rtl] li,html[dir=rtl] h1,html[dir=rtl] h2,html[dir=rtl] h3{letter-spacing:0;text-align:start}
+html[dir=rtl] .mc a[href^="tel:"],html[dir=rtl] .mc a[href^="mailto:"]{direction:ltr;unicode-bidi:isolate}
