@@ -34,7 +34,7 @@
     root.setAttribute('dir', on ? 'rtl' : 'ltr');
   }
   window.__arApply = apply;
-  fetch('ar.json?v=1').then(r => r.json()).then(d => {
+  fetch('ar.json?v=2').then(r => r.json()).then(d => {
     dict = d;
     const sync = () => apply(root.classList.contains('ar-on'));
     sync();
