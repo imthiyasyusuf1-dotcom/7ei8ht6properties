@@ -634,3 +634,19 @@ html,body{overflow-x:clip}
 .leader .mc a::after{content:"→";color:var(--gold-d,#8a6d3b);font-size:14px}
 }
 @media (max-width:760px){.leader .ph{width:62%;max-width:240px}}
+
+/* ---------- 786 feedback, 30 Sep ---------- */
+.mark{width:96px;height:64px}
+.hdr.solid .mark{width:84px;height:56px}
+.veil .mark{width:150px;height:100px}
+@media (max-width:760px){.mark,.hdr.solid .mark{width:72px;height:48px}.veil .mark{width:120px;height:80px}}
+.leaders.solo{grid-template-columns:1fr;max-width:980px}
+.leaders.solo .leader{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,70px);margin-top:0}
+.leaders.solo .leader .d2{font-size:clamp(2.2rem,3.6vw,3.4rem)}
+@media (max-width:760px){.leaders.solo .leader{grid-template-columns:1fr}.leaders.solo .leader .ph{width:100%;max-width:none}}
+.member img,.leader img,.tb-faces img{image-rendering:auto;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.member:hover img,.member:active img{transform:none;filter:none}
+.am-7{grid-column:1/6;grid-row:span 4;margin-top:clamp(20px,3vw,50px)}
+.am-8{grid-column:6/13;grid-row:span 5}
+.am-9{grid-column:1/13;grid-row:span 4}
+@media (max-width:760px){.am-7{grid-column:1/7;grid-row:span 4;margin:0}.am-8{grid-column:1/4;grid-row:span 4;margin:0}.am-9{grid-column:4/7;grid-row:span 4;margin-top:40px}}
